@@ -96,8 +96,7 @@ h4{
 }
 .etap{
     width: 100%;
-    background-color: #fff;
-    height: 330px;
+    background-color: #fff;overflow-x: ;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -152,6 +151,7 @@ a{
 .flec-center{
     display: flex;
     justify-content: space-around;
+    width: 200px;
 }
 .white-block a img:hover {
     border-radius: 50%;
@@ -187,4 +187,8 @@ a{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+.center-block{
+    display: flex;
+    justify-content: center;
 }
