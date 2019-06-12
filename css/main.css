@@ -96,7 +96,7 @@ h4{
 }
 .etap{
     width: 100%;
-    background-color: #fff;overflow-x: ;
+    background-color: #fff;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -115,7 +115,7 @@ h4{
 .etap:hover{
     -webkit-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.8);
     -moz-box-shadow:    0px 0px 26px 0px rgba(50, 50, 50, 0.8);
-    box-shadow:         0px 0px 26px 0px rgba(50, 50, 50, 0.-8);
+    box-shadow:         0px 0px 26px 0px rgba(50, 50, 50, 0.8);
     position: relative;
     opacity: 1;
     transform: scale(1.02); /*вот так*/
@@ -145,7 +145,7 @@ a{
     border-radius: 50%;
     -webkit-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.3);
     -moz-box-shadow:    0px 0px 26px 0px rgba(50, 50, 50, 0.3);
-    box-shadow:         0px 0px 26px 0px rgba(50, 50, 50, 0.-3);
+    box-shadow:         0px 0px 26px 0px rgba(50, 50, 50, 0.3);
     transition: 0.24s;
 }
 .flec-center{
@@ -157,7 +157,7 @@ a{
     border-radius: 50%;
     -webkit-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.5);
     -moz-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.5);
-    box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.-5);
+    box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.5);
     position: relative;
     opacity: 1;
     transform: scale(1.02); /*вот так*/
@@ -174,13 +174,13 @@ a{
     border-radius: 50%;
     -webkit-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.3);
     -moz-box-shadow:    0px 0px 26px 0px rgba(50, 50, 50, 0.3);
-    box-shadow:         0px 0px 26px 0px rgba(50, 50, 50, 0.-3);
+    box-shadow:         0px 0px 26px 0px rgba(50, 50, 50, 0.3);
     transition: 0.24s;
 }
 .creator img:hover{
     -webkit-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.5);
     -moz-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.5);
-    box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.-5);
+    box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 0.5);
 }
 .creator{
     display: flex;
@@ -191,4 +191,7 @@ a{
 .center-block{
     display: flex;
     justify-content: center;
+}
+.pp:hover{
+    text-decoration: none;
 }
